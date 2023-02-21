@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'FutureMono';
+  src: url('FutureMono.eot');
+  src: url('Roboto.eot?#iefix') format('embedded-opentype'),
+     url('Roboto.woff') format('woff'),
+     url('./fonts/FeatureMono-Regular.ttf') format('truetype'),
+     url('Roboto.svg#FutureMono') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 800px;
+  border: 1px solid red;
+  font-family: 'FutureMono';
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: black; //временно
+}
+.header__btn {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: black;
+}
